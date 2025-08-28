@@ -2,11 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Items } from '../../Models/Product';
 import { ProductList } from '../product-list/product-list';
 import { CommonModule } from '@angular/common';
-
+import { SetBackground } from '../../coustomDirectives/setBackground.directive';
 
 @Component({
   selector: 'app-product-detail',
-  imports: [CommonModule],
+  imports: [CommonModule, SetBackground],
   templateUrl: './product-detail.html',
   styleUrl: './product-detail.css'
 })
