@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { Items } from '../../../Models/Product';
+import { Highlight } from "../../../coustomDirectives/highlight.directive";
 
 
 @Component({
   selector: 'app-product',
-  imports: [CommonModule],
+  imports: [CommonModule, Highlight],
   templateUrl: './product.html',
   styleUrl: './product.css'
 })
