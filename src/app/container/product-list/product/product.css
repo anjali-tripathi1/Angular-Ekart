@@ -27,6 +27,13 @@
     position: absolute;
     padding: 5px 0px;
 }
+
+.disable-out-of-stock-product{
+     background-color: #282828;
+     opacity: 0.5;
+}
+
+
 .ekart--add--to--wishlist{
     padding:2px 10px;
     text-align: right;

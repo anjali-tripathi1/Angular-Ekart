@@ -4,10 +4,11 @@ import { ProductList } from '../product-list/product-list';
 import { CommonModule } from '@angular/common';
 import { SetBackground } from '../../coustomDirectives/setBackground.directive';
 import { HoverDirective } from "../../coustomDirectives/hover.directive";
+import { DisableProduct } from "../../coustomDirectives/disableProduct.directive";
 
 @Component({
   selector: 'app-product-detail',
-  imports: [CommonModule, SetBackground, HoverDirective],
+  imports: [CommonModule, SetBackground, HoverDirective, DisableProduct],
   templateUrl: './product-detail.html',
   styleUrl: './product-detail.css'
 })
